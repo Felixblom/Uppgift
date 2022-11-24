@@ -16,12 +16,12 @@ public class UppgiftRakna {
 
     public int getCharCount() {
 
-        return charCount - 4;
+        return charCount;
     }
 
     public int getRowCount() {
 
-        return rowCount - 1;
+        return rowCount;
     }
 
     /*/metoder som sparar antal tecken/antal rader i attributen
@@ -40,8 +40,8 @@ public class UppgiftRakna {
     //metoder som returnerar antal tecken/antal rader
     public void afterStop() {
 
-        System.out.println("Antal rader: " + getRowCount());
-        System.out.println("Antal bokstäver: " + getCharCount());
+        System.out.println("Antal rader: " + (getRowCount()-1));
+        System.out.println("Antal bokstäver: " + (getCharCount()-4));
     }
 
 }
