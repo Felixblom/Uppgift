@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0fef57-92f3-4b02-8328-736f6e38cf21" name="Changes" comment="Added testcases">
+    <list default="true" id="fc0fef57-92f3-4b02-8328-736f6e38cf21" name="Changes" comment="Format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UppgiftRakna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UppgiftRakna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UppgiftRaknaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UppgiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UppgiftText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UppgiftText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UppgiftTextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UppgiftTextTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,31 +61,50 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="UppgiftRaknaTest.antal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uppgift" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UppgiftRaknaTest" />
-      <option name="METHOD_NAME" value="antal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UppgiftTextTest2.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Uppgift" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UppgiftTextTest2" />
-      <option name="METHOD_NAME" value="text" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UppgiftTextTest.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UppgiftTextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Uppgift" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UppgiftTextTest" />
-      <option name="METHOD_NAME" value="text" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UppgiftTextTest.testCharCount2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uppgift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UppgiftTextTest" />
+      <option name="METHOD_NAME" value="testCharCount2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UppgiftTextTest.testCharCount3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uppgift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UppgiftTextTest" />
+      <option name="METHOD_NAME" value="testCharCount3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UppgiftTextTest.testRowCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uppgift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UppgiftTextTest" />
+      <option name="METHOD_NAME" value="testRowCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UppgiftTextTest.testRowCount3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Uppgift" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UppgiftTextTest" />
+      <option name="METHOD_NAME" value="testRowCount3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,9 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UppgiftTextTest.text" />
-        <item itemvalue="JUnit.UppgiftRaknaTest.antal" />
-        <item itemvalue="JUnit.UppgiftTextTest2.text" />
+        <item itemvalue="JUnit.UppgiftTextTest.testRowCount3" />
+        <item itemvalue="JUnit.UppgiftTextTest.testCharCount3" />
+        <item itemvalue="JUnit.UppgiftTextTest" />
+        <item itemvalue="JUnit.UppgiftTextTest.testRowCount" />
+        <item itemvalue="JUnit.UppgiftTextTest.testCharCount2" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667830849359</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Format">
+      <created>1667832247084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667832247084</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +190,7 @@
     <MESSAGE value="Test 2" />
     <MESSAGE value="Test 3" />
     <MESSAGE value="Added testcases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testcases" />
+    <MESSAGE value="Format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format" />
   </component>
 </project>
